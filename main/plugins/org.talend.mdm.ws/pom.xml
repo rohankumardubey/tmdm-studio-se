@@ -27,9 +27,9 @@
                 <resource>
                   <directory>${basedir}/../org.talend.mdm.ws.jars/lib</directory>
 					<includes> 
-						<include>javax.jws_2.0.0.v201005080400.jar</include> 
-						<include>javax.xml.ws_2.1.0.v200902101523.jar</include> 
-						<include>jaxb-api-2.2.7.jar</include> 
+						<include>jakarta.jws-api-2.1.0.jar</include> 
+						<include>jakarta.xml.ws-api-2.3.3.jar</include> 
+						<include>jakarta.xml.bind-api-2.3.3.jar</include>
 					</includes>
                   <filtering>false</filtering>
                 </resource>

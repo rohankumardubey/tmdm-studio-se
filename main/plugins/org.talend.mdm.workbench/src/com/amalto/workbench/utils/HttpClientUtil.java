@@ -527,6 +527,7 @@ public class HttpClientUtil {
         try {
             HttpPost request = new HttpPost(url);
             request.setHeader(HTTP.CONTENT_TYPE, APPLICATION_XML_CONTENT_TYPE);
+
             wrapHttpRequest(request, userName, password);
             addStudioToken(request, userName);
 

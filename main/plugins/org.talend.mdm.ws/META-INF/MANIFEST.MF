@@ -10,8 +10,9 @@ Require-Bundle: javax.wsdl;bundle-version="1.6.2",
  javax.xml.bind
 Eclipse-ExtensibleAPI: true
 Bundle-ClassPath: .,
- lib/javax.jws_2.0.0.v201005080400.jar,
- lib/javax.xml.ws_2.1.0.v200902101523.jar
+ lib/jakarta.jws-api-2.1.0.jar,
+ lib/jakarta.xml.bind-api-2.3.3.jar,
+ lib/jakarta.xml.ws-api-2.3.3.jar
 Export-Package: 
  com.amalto.workbench.webservices,
  javax.xml.bind,
